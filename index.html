@@ -6,33 +6,112 @@
     <title>Team Registration</title>
 </head>
 <body>
+    <h1>Team Registration Form</h1>
     <form action="http://127.0.0.1:5000/send_email" method="POST">
-        <label for="team_name">Team Name:</label>
-        <input type="text" id="team_name" name="team_name"><br><br>
+        <label for="team_name">Team Name:</label><br>
+        <input type="text" id="team_name" name="team_name" required><br><br>
         
-        <label for="team_lead_name">Team Lead's Name:</label>
-        <input type="text" id="team_lead_name" name="team_lead_name"><br><br>
+        <label for="college_name">College Name:</label><br>
+        <input type="text" id="college_name" name="college_name" required><br><br>
         
-        <label for="member1_name">Member 1 Name:</label>
-        <input type="text" id="member1_name" name="member1_name"><br><br>
+        <h2>Leader Information:</h2>
+        <label for="leader_name">Name:</label><br>
+        <input type="text" id="leader_name" name="leader_name" required><br>
         
-        <label for="member2_name">Member 2 Name:</label>
-        <input type="text" id="member2_name" name="member2_name"><br><br>
+        <label for="leader_ign">IGN:</label><br>
+        <input type="text" id="leader_ign" name="leader_ign" required><br>
         
-        <label for="member3_name">Member 3 Name:</label>
-        <input type="text" id="member3_name" name="member3_name"><br><br>
+        <label for="leader_discord_tag">Discord Tag:</label><br>
+        <input type="text" id="leader_discord_tag" name="leader_discord_tag" required><br>
         
-        <label for="member4_name">Member 4 Name:</label>
-        <input type="text" id="member4_name" name="member4_name"><br><br>
+        <label for="leader_rank">Rank:</label><br>
+        <input type="text" id="leader_rank" name="leader_rank" required><br>
         
-        <label for="lead_phone">Lead's Phone Number:</label>
-        <input type="text" id="lead_phone" name="lead_phone"><br><br>
+        <label for="leader_contact">Contact Number:</label><br>
+        <input type="tel" id="leader_contact" name="leader_contact" required pattern="[0-9]{10}"><br>
         
-        <label for="lead_email">Lead's Email:</label>
-        <input type="email" id="lead_email" name="lead_email"><br><br>
+        <label for="leader_email">Email:</label><br>
+        <input type="email" id="leader_email" name="leader_email" required><br><br>
         
-        <label for="college_name">College Name:</label>
-        <input type="text" id="college_name" name="college_name"><br><br>
+        <!-- Additional Player 2 Information -->
+        <h2>Player 2 Information:</h2>
+        <label for="p2_name">Name:</label><br>
+        <input type="text" id="p2_name" name="p2_name" required><br>
+        
+        <label for="p2_ign">IGN:</label><br>
+        <input type="text" id="p2_ign" name="p2_ign" required><br>
+        
+        <label for="p2_discord_tag">Discord Tag:</label><br>
+        <input type="text" id="p2_discord_tag" name="p2_discord_tag" required><br>
+        
+        <label for="p2_rank">Rank:</label><br>
+        <input type="text" id="p2_rank" name="p2_rank" required><br>
+        
+        <label for="p2_contact">Contact Number:</label><br>
+        <input type="tel" id="p2_contact" name="p2_contact" required pattern="[0-9]{10}"><br>
+        
+        <label for="p2_email">Email:</label><br>
+        <input type="email" id="p2_email" name="p2_email" required><br><br>
+        
+        <!-- Additional Player 3 Information -->
+        <h2>Player 3 Information:</h2>
+        <label for="p3_name">Name:</label><br>
+        <input type="text" id="p3_name" name="p3_name" required><br>
+        
+        <label for="p3_ign">IGN:</label><br>
+        <input type="text" id="p3_ign" name="p3_ign" required><br>
+        
+        <label for="p3_discord_tag">Discord Tag:</label><br>
+        <input type="text" id="p3_discord_tag" name="p3_discord_tag" required><br>
+        
+        <label for="p3_rank">Rank:</label><br>
+        <input type="text" id="p3_rank" name="p3_rank" required><br>
+        
+        <label for="p3_contact">Contact Number:</label><br>
+        <input type="tel" id="p3_contact" name="p3_contact" required pattern="[0-9]{10}"><br>
+        
+        <label for="p3_email">Email:</label><br>
+        <input type="email" id="p3_email" name="p3_email" required><br><br>
+        
+        <!-- Additional Player 4 Information -->
+        <h2>Player 4 Information:</h2>
+        <label for="p4_name">Name:</label><br>
+        <input type="text" id="p4_name" name="p4_name" required><br>
+        
+        <label for="p4_ign">IGN:</label><br>
+        <input type="text" id="p4_ign" name="p4_ign" required><br>
+        
+        <label for="p4_discord_tag">Discord Tag:</label><br>
+        <input type="text" id="p4_discord_tag" name="p4_discord_tag" required><br>
+        
+        <label for="p4_rank">Rank:</label><br>
+        <input type="text" id="p4_rank" name="p4_rank" required><br>
+        
+        <label for="p4_contact">Contact Number:</label><br>
+        <input type="tel" id="p4_contact" name="p4_contact" required pattern="[0-9]{10}"><br>
+        
+        <label for="p4_email">Email:</label><br>
+        <input type="email" id="p4_email" name="p4_email" required><br><br>
+        
+        <!-- Additional Player 5 Information -->
+        <h2>Player 5 Information:</h2>
+        <label for="p5_name">Name:</label><br>
+        <input type="text" id="p5_name" name="p5_name" required><br>
+        
+        <label for="p5_ign">IGN:</label><br>
+        <input type="text" id="p5_ign" name="p5_ign" required><br>
+        
+        <label for="p5_discord_tag">Discord Tag:</label><br>
+        <input type="text" id="p5_discord_tag" name="p5_discord_tag" required><br>
+        
+        <label for="p5_rank">Rank:</label><br>
+        <input type="text" id="p5_rank" name="p5_rank" required><br>
+        
+        <label for="p5_contact">Contact Number:</label><br>
+        <input type="tel" id="p5_contact" name="p5_contact" required pattern="[0-9]{10}"><br>
+        
+        <label for="p5_email">Email:</label><br>
+        <input type="email" id="p5_email" name="p5_email" required><br><br>
         
         <input type="submit" value="Submit">
     </form>
